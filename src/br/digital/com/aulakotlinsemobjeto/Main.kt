@@ -5,10 +5,14 @@ fun main() {
     showTheFirst100PositiveNumbers()
     maiorNumero(4,5,3) // Italo J.
     exercicio4() // Victor Rubens
-    
+
     //exercicio 3 - Thamires Oliveira
     println(par(2))
     println(par(3))
+
+    //Exercicio 2
+    print(textoDiferente("Al","Ar"))
+    print(textoDiferente("Al","Al"))
 }
 
 //Exercício 6 - Bruno
@@ -29,7 +33,7 @@ fun exercicio4() {
     }
 }
 //Exercicio 1 - Italo J.
-fun maiorNumero(numeroA:Int, numeroB:Int, numeroC:Int): Int{
+fun maiorNumero(numeroA:Int, numeroB:Int, numeroC:Int){
     var aux:Int
 
     aux = if(numeroA>=numeroB && numeroA>=numeroC){
@@ -44,4 +48,9 @@ fun maiorNumero(numeroA:Int, numeroB:Int, numeroC:Int): Int{
 //Exercício 3 - Thamires Oliveira
 fun par(num: Int): Boolean {
     return (num % 2 == 0)
+}
+
+//Exercicio 2 - Ytalo Ribeiro
+fun textoDiferente(t1: String, t2: String): Boolean{
+    return t1 != t2
 }
