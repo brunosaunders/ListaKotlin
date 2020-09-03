@@ -6,7 +6,7 @@ fun main() {
     maiorNumero(4,5,3) // Italo J.
     exercicio4() // Victor Rubens
     
-    //exercicio 3
+    //exercicio 3 - Thamires Oliveira
     println(par(2))
     println(par(3))
 }
@@ -41,7 +41,7 @@ fun maiorNumero(numeroA:Int, numeroB:Int, numeroC:Int): Int{
     }
     print(aux)
 }
-//Exercício 3
+//Exercício 3 - Thamires Oliveira
 fun par(num: Int): Boolean {
     return (num % 2 == 0)
 }
