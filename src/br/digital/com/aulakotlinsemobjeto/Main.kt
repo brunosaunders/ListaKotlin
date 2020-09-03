@@ -3,7 +3,7 @@ package br.digital.com.aulakotlinsemobjeto
 
 fun main() {
     showTheFirst100PositiveNumbers()
-
+    maiorNumero(4,5,3)
     exercicio4() // Victor Rubens
 }
 
@@ -22,4 +22,20 @@ fun exercicio4() {
             print("$i,")
         i++
     }
+}
+print(maiorNumero(2,4,7))
+}
+
+
+fun maiorNumero(numeroA:Int, numeroB:Int, numeroC:Int): Int{
+    var aux:Int
+
+    aux = if(numeroA>=numeroB && numeroA>=numeroC){
+        numeroA
+    } else if(numeroB>=numeroA && numeroB>=numeroC) {
+        numeroB
+    } else{
+        numeroC
+    }
+    print(aux)
 }
