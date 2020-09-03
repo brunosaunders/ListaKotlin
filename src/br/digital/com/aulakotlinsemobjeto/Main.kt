@@ -11,6 +11,7 @@ fun main() {
     println(par(3))
 }
 
+//Exercício 6 - Bruno
 fun showTheFirst100PositiveNumbers() {
     for (item in 1..100) {
         println(item)
