@@ -29,7 +29,6 @@ fun exercicio4() {
 }
 
 //Exercício 3
-
 fun par(num: Int): Boolean {
     return (num % 2 == 0)
 }
