@@ -10,9 +10,12 @@ fun main() {
     println(par(2))
     println(par(3))
 
+
     //Exercicio 2
-    print(textoDiferente("Al","Ar"))
-    print(textoDiferente("Al","Al"))
+    println(textoDiferente("Al","Ar"))
+    println(textoDiferente("Al","Al"))
+
+    println("exercicio 5: "+exercise5(7, 2, 3, 4))
 }
 
 //Exercício 6 - Bruno
@@ -53,4 +56,8 @@ fun par(num: Int): Boolean {
 //Exercicio 2 - Ytalo Ribeiro
 fun textoDiferente(t1: String, t2: String): Boolean{
     return t1 != t2
+}
+
+fun exercise5(numA: Int, numB: Int, numC: Int, numD: Int): Boolean {
+    return ((numA > numC && numA > numD) || (numB > numC && numB > numD))
 }
