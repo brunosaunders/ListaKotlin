@@ -3,10 +3,15 @@ package br.digital.com.aulakotlinsemobjeto
 
 fun main() {
     showTheFirst100PositiveNumbers()
-    maiorNumero(4,5,3)
+    maiorNumero(4,5,3) // Italo J.
     exercicio4() // Victor Rubens
+    
+    //exercicio 3
+    println(par(2))
+    println(par(3))
 }
 
+//Exercício 6 - Bruno
 fun showTheFirst100PositiveNumbers() {
     for (item in 1..100) {
         println(item)
@@ -23,10 +28,7 @@ fun exercicio4() {
         i++
     }
 }
-print(maiorNumero(2,4,7))
-}
-
-
+//Exercicio 1 - Italo J.
 fun maiorNumero(numeroA:Int, numeroB:Int, numeroC:Int): Int{
     var aux:Int
 
@@ -38,4 +40,8 @@ fun maiorNumero(numeroA:Int, numeroB:Int, numeroC:Int): Int{
         numeroC
     }
     print(aux)
+}
+//Exercício 3
+fun par(num: Int): Boolean {
+    return (num % 2 == 0)
 }
