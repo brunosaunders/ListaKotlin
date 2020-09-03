@@ -5,6 +5,10 @@ fun main() {
     showTheFirst100PositiveNumbers()
 
     exercicio4() // Victor Rubens
+    
+    //exercicio 3
+    println(par(2))
+    println(par(3))
 }
 
 fun showTheFirst100PositiveNumbers() {
@@ -22,4 +26,10 @@ fun exercicio4() {
             print("$i,")
         i++
     }
+}
+
+//Exercício 3
+
+fun par(num: Int): Boolean {
+    return (num % 2 == 0)
 }
